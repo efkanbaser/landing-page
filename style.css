@@ -28,7 +28,7 @@ header .hero-secondary-text{
     background-color: #1f2937;
     height: 20vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -46,14 +46,17 @@ header .hero-secondary-text{
 
 #section-a1{
     text-align: left;
-    max-width: 30vh;
+    max-width: 31vh;
 }
 
 #section-a2{
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image:url(img/bluedrink.jpg);
     background-size: cover;
+    background-position: center;
+    max-width: 30vh;
+    padding: 8vh 20vh;
+    margin-left: 30vh;
+    border-radius: 10px;
 }
 
 #section-a2 img{
